@@ -1,0 +1,16 @@
+backend:
+  name: github
+  repo: swiftcuisine917-droid/swiftcuisine
+  branch: main
+
+media_folder: "images"
+public_folder: "/images"
+
+collections:
+  - name: "products"
+    label: "Products"
+    folder: "products"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Price", name: "price", widget: "string"}
